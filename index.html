@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="azul">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Só Piscinas | Equipamentos para piscinas</title>
+    <meta
+      name="description"
+      content="Só Piscinas Equipamentos para Piscinas Ltda: bombas, filtros, produtos químicos e acessórios. Peça orçamento pelo WhatsApp."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Só Piscinas | Equipamentos para piscinas"
+    />
+    <meta
+      property="og:description"
+      content="Bombas, filtros, produtos químicos e acessórios para piscinas. Fale conosco pelo WhatsApp."
+    />
+    <meta
+      property="og:image"
+      content="https://placehold.co/1200x630/E9E5DC/14202C?text=S%C3%B3+Piscinas&font=inter"
+    />
+    <meta name="theme-color" content="#fcfbf8" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E💧%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <main id="topo">
+      <header>
+        <div class="wrap">
+          <a href="#topo" class="logo">Só Piscinas</a>
+          <nav aria-label="Principal">
+            <a href="#produtos">Produtos</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#marcas">Marcas</a>
+            <a href="#contato">Contato</a>
+            <button class="menu-btn" id="open-menu" aria-haspopup="dialog">
+              Menu <kbd id="kbd">Ctrl K</kbd>
+            </button>
+          </nav>
+        </div>
+      </header>
+
+      <section class="hero">
+        <div class="wrap">
+          <h1 aria-label="Equipamentos para piscinas, sem complicação.">
+            <span class="w" style="--i: 0" aria-hidden="true"
+              >Equipamentos</span
+            >
+            <span class="w" style="--i: 1" aria-hidden="true">para</span>
+            <span class="w" style="--i: 2" aria-hidden="true">piscinas,</span>
+            <span class="w" style="--i: 3" aria-hidden="true">sem</span>
+            <span class="w" style="--i: 4" aria-hidden="true"
+              >complicação.</span
+            >
+          </h1>
+          <p class="lead">
+            Bombas, filtros, produtos químicos e acessórios, com orientação de
+            quem entende.
+          </p>
+          <div class="row">
+            <a class="btn wa" data-whatsapp href="#contato"
+              ><svg viewBox="0 0 24 24" aria-hidden="true">
+                <use href="#wa" /></svg
+              >Pedir orçamento</a
+            >
+            <button class="btn ghost" id="open-calc">
+              Calcular volume da piscina
+            </button>
+          </div>
+          <!-- TROQUE A IMAGEM: coloque o caminho da sua foto no src, ex.: img/hero.jpg -->
+          <div class="hero-img">
+            <img
+              src="https://placehold.co/1600x800/E9E5DC/14202C?text=Foto+da+piscina&font=inter"
+              alt="Piscina limpa com água cristalina"
+              width="1600"
+              height="800"
+              fetchpriority="high"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="produtos">
+        <div class="wrap">
+          <div class="head">
+            <h2>Produtos</h2>
+            <div class="tools" role="group" aria-label="Filtrar e visualizar">
+              <button class="chip" data-filter="todos" aria-pressed="true">
+                Todos
+              </button>
+              <button class="chip" data-filter="Bombas" aria-pressed="false">
+                Bombas
+              </button>
+              <button class="chip" data-filter="Filtros" aria-pressed="false">
+                Filtros
+              </button>
+              <button class="chip" data-filter="Químicos" aria-pressed="false">
+                Químicos
+              </button>
+              <button
+                class="chip"
+                data-filter="Acessórios"
+                aria-pressed="false"
+              >
+                Acessórios
+              </button>
+              <span class="sep" aria-hidden="true"></span>
+              <button class="chip" data-view="grid" aria-pressed="true">
+                Grade
+              </button>
+              <button class="chip" data-view="list" aria-pressed="false">
+                Lista
+              </button>
+            </div>
+          </div>
+          <!-- Para adicionar produto, duplique um article e mantenha data-cat e data-item atualizados. -->
+          <div class="products" id="products">
+            <article class="item" data-cat="Bombas">
+              <img
+                src="https://placehold.co/800x600/E9E5DC/14202C?text=Bomba+Jacuzzi&font=inter"
+                alt="Bomba Jacuzzi"
+                width="800"
+                height="600"
+                loading="lazy"
+              />
+              <div class="txt">
+                <h3>Bomba Jacuzzi</h3>
+                <span class="cat">Bombas</span>
+              </div>
+              <a href="#contato" data-item="Bomba Jacuzzi">Pedir orçamento</a>
+            </article>
+            <article class="item" data-cat="Bombas">
+              <img
+                src="https://placehold.co/800x600/E9E5DC/14202C?text=Bomba+Jacuzzi+2&font=inter"
+                alt="Bomba Jacuzzi para piscinas maiores"
+                width="800"
+                height="600"
+                loading="lazy"
+              />
+              <div class="txt">
+                <h3>Bomba Jacuzzi para piscinas maiores</h3>
+                <span class="cat">Bombas</span>
+              </div>
+              <a href="#contato" data-item="Bomba Jacuzzi para piscinas maiores"
+                >Pedir orçamento</a
+              >
+            </article>
+            <article class="item" data-cat="Filtros">
+              <img
+                src="https://placehold.co/800x600/E9E5DC/14202C?text=Filtro+Jacuzzi&font=inter"
+                alt="Filtro Jacuzzi"
+                width="800"
+                height="600"
+                loading="lazy"
+              />
+              <div class="txt">
+                <h3>Filtro Jacuzzi</h3>
+                <span class="cat">Filtros</span>
+              </div>
+              <a href="#contato" data-item="Filtro Jacuzzi">Pedir orçamento</a>
+            </article>
+            <article class="item" data-cat="Filtros">
+              <img
+                src="https://placehold.co/800x600/E9E5DC/14202C?text=Filtro+Jacuzzi+2&font=inter"
+                alt="Filtro Jacuzzi com areia"
+                width="800"
+                height="600"
+                loading="lazy"
+              />
+              <div class="txt">
+                <h3>Filtro Jacuzzi com areia</h3>
+                <span class="cat">Filtros</span>
+              </div>
+              <a href="#contato" data-item="Filtro Jacuzzi com areia"
+                >Pedir orçamento</a
+              >
+            </article>
+            <article class="item" data-cat="Químicos">
+              <img
+                src="https://placehold.co/800x600/E9E5DC/14202C?text=Cloro&font=inter"
+                alt="Cloro para piscina"
+                width="800"
+                height="600"
+                loading="lazy"
+              />
+              <div class="txt">
+                <h3>Cloro</h3>
+                <span class="cat">Químicos</span>
+              </div>
+              <a href="#contato" data-item="Cloro">Pedir orçamento</a>
+            </article>
+            <article class="item" data-cat="Químicos">
+              <img
+                src="https://placehold.co/800x600/E9E5DC/14202C?text=Algicida+e+pH&font=inter"
+                alt="Algicida e regulador de pH"
+                width="800"
+                height="600"
+                loading="lazy"
+              />
+              <div class="txt">
+                <h3>Algicida e regulador de pH</h3>
+                <span class="cat">Químicos</span>
+              </div>
+              <a href="#contato" data-item="Algicida e regulador de pH"
+                >Pedir orçamento</a
+              >
+            </article>
+            <article class="item" data-cat="Acessórios">
+              <img
+                src="https://placehold.co/800x600/E9E5DC/14202C?text=Peneira+e+escova&font=inter"
+                alt="Peneira e escova"
+                width="800"
+                height="600"
+                loading="lazy"
+              />
+              <div class="txt">
+                <h3>Peneira e escova</h3>
+                <span class="cat">Acessórios</span>
+              </div>
+              <a href="#contato" data-item="Peneira e escova"
+                >Pedir orçamento</a
+              >
+            </article>
+            <article class="item" data-cat="Acessórios">
+              <img
+                src="https://placehold.co/800x600/E9E5DC/14202C?text=Mangueira&font=inter"
+                alt="Mangueira e conexões"
+                width="800"
+                height="600"
+                loading="lazy"
+              />
+              <div class="txt">
+                <h3>Mangueira e conexões</h3>
+                <span class="cat">Acessórios</span>
+              </div>
+              <a href="#contato" data-item="Mangueira e conexões"
+                >Pedir orçamento</a
+              >
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="alt" id="servicos">
+        <div class="wrap">
+          <h2>Como podemos ajudar</h2>
+          <div class="services">
+            <div>
+              <h3>Escolha do equipamento</h3>
+              <p>
+                Dizemos qual bomba e qual filtro servem para o tamanho e o uso
+                da sua piscina.
+              </p>
+            </div>
+            <div>
+              <h3>Produtos para o tratamento</h3>
+              <p>
+                Cloro, algicida e regulador de pH para manter a água limpa o ano
+                todo.
+              </p>
+            </div>
+            <div>
+              <h3>Reposição e acessórios</h3>
+              <p>
+                Peças, mangueiras, peneiras e escovas para a manutenção do dia a
+                dia.
+              </p>
+            </div>
+            <div>
+              <h3>Atendimento rápido</h3>
+              <p>Tire dúvidas e peça orçamento direto pelo WhatsApp.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre">
+        <div class="wrap about">
+          <div>
+            <h2>Sobre a Só Piscinas</h2>
+            <p class="lead">
+              A Só Piscinas Equipamentos para Piscinas Ltda atende donos de
+              piscinas, condomínios e profissionais que precisam de equipamentos
+              confiáveis e de uma resposta rápida.
+            </p>
+            <p>
+              Nosso trabalho é simples: ajudar você a escolher o produto certo,
+              sem complicação.
+            </p>
+          </div>
+          <img
+            src="https://placehold.co/1000x1250/E9E5DC/14202C?text=Foto+da+loja&font=inter"
+            alt="Loja da Só Piscinas"
+            width="1000"
+            height="1250"
+            loading="lazy"
+          />
+        </div>
+      </section>
+
+      <section class="alt" id="marcas">
+        <div class="wrap">
+          <h2>Marcas</h2>
+          <!-- Adicione marcas duplicando um item e atualizando a imagem e seu texto alternativo. -->
+          <ul class="brands-list">
+            <li>
+              <img
+                src="https://placehold.co/240x96/FFFFFF/5B6B76?text=HTH&font=montserrat"
+                alt="HTH"
+                width="240"
+                height="96"
+                loading="lazy"
+              />
+            </li>
+            <li>
+              <img
+                src="https://placehold.co/240x96/FFFFFF/5B6B76?text=Genco&font=montserrat"
+                alt="Genco"
+                width="240"
+                height="96"
+                loading="lazy"
+              />
+            </li>
+            <li>
+              <img
+                src="https://placehold.co/240x96/FFFFFF/5B6B76?text=Jacuzzi&font=montserrat"
+                alt="Jacuzzi"
+                width="240"
+                height="96"
+                loading="lazy"
+              />
+            </li>
+            <li>
+              <img
+                src="https://placehold.co/240x96/FFFFFF/5B6B76?text=Hidroazul&font=montserrat"
+                alt="Hidroazul"
+                width="240"
+                height="96"
+                loading="lazy"
+              />
+            </li>
+            <li>
+              <img
+                src="https://placehold.co/240x96/FFFFFF/5B6B76?text=Pace&font=montserrat"
+                alt="Pace"
+                width="240"
+                height="96"
+                loading="lazy"
+              />
+            </li>
+            <li>
+              <img
+                src="https://placehold.co/240x96/FFFFFF/5B6B76?text=Marca+6&font=montserrat"
+                alt="Marca 6"
+                width="240"
+                height="96"
+                loading="lazy"
+              />
+            </li>
+            <li>
+              <img
+                src="https://placehold.co/240x96/FFFFFF/5B6B76?text=Marca+7&font=montserrat"
+                alt="Marca 7"
+                width="240"
+                height="96"
+                loading="lazy"
+              />
+            </li>
+            <li>
+              <img
+                src="https://placehold.co/240x96/FFFFFF/5B6B76?text=Marca+8&font=montserrat"
+                alt="Marca 8"
+                width="240"
+                height="96"
+                loading="lazy"
+              />
+            </li>
+            <li>
+              <img
+                src="https://placehold.co/240x96/FFFFFF/5B6B76?text=Marca+9&font=montserrat"
+                alt="Marca 9"
+                width="240"
+                height="96"
+                loading="lazy"
+              />
+            </li>
+            <li>
+              <img
+                src="https://placehold.co/240x96/FFFFFF/5B6B76?text=Marca+10&font=montserrat"
+                alt="Marca 10"
+                width="240"
+                height="96"
+                loading="lazy"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="contato">
+        <div class="wrap">
+          <h2>Contato</h2>
+          <div class="contact-list">
+            <a data-whatsapp href="#contato"
+              ><span>WhatsApp</span><span data-contact-phone></span
+            ></a>
+            <a data-instagram href="#contato" target="_blank" rel="noopener"
+              ><span>Instagram</span><span data-instagram-handle></span
+            ></a>
+            <a data-contact-email-link href="#contato"
+              ><span>E-mail</span><span data-contact-email></span
+            ></a>
+            <div><span>Endereço</span><span data-contact-address></span></div>
+            <div><span>Horário</span><span data-contact-hours></span></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        <h2>Vamos conversar sobre sua piscina?</h2>
+        <a class="btn" data-whatsapp href="#contato">Chamar no WhatsApp</a>
+        <div class="row">
+          <span
+            >© <span id="ano">2026</span> Só Piscinas Equipamentos para Piscinas
+            Ltda · CNPJ 00.000.000/0001-00</span
+          >
+          <a data-instagram href="#contato" target="_blank" rel="noopener"
+            >Instagram</a
+          >
+        </div>
+      </div>
+    </footer>
+
+    <a
+      class="float"
+      data-whatsapp
+      href="#contato"
+      aria-label="Chamar no WhatsApp"
+      ><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#wa" /></svg
+    ></a>
+
+    <div class="themes" role="group" aria-label="Paleta de cores">
+      <button
+        data-set="azul"
+        style="background: #0b5fa5"
+        aria-label="Azul"
+        aria-pressed="true"
+      ></button>
+      <button
+        data-set="vermelho"
+        style="background: #d7263d"
+        aria-label="Vermelho"
+        aria-pressed="false"
+      ></button>
+      <button
+        data-set="neutro"
+        style="background: #14202c"
+        aria-label="Neutro"
+        aria-pressed="false"
+      ></button>
+      <button
+        data-set="agua"
+        style="background: #0a8a8f"
+        aria-label="Verde-água"
+        aria-pressed="false"
+      ></button>
+      <button
+        data-set="areia"
+        style="background: #9a6b2f"
+        aria-label="Areia"
+        aria-pressed="false"
+      ></button>
+    </div>
+
+    <dialog id="menu" aria-label="Menu de comandos">
+      <div id="list-view">
+        <input
+          id="q"
+          type="text"
+          placeholder="Digite para buscar…"
+          autocomplete="off"
+          aria-label="Buscar ações"
+        />
+        <ul id="actions" role="listbox"></ul>
+      </div>
+      <div class="calc" id="calc" hidden>
+        <h3>Calculadora de volume</h3>
+        <div class="fields">
+          <label
+            >Comprimento (m)<input
+              id="c"
+              type="number"
+              min="0"
+              step="0.1"
+              inputmode="decimal"
+              value="8"
+          /></label>
+          <label
+            >Largura (m)<input
+              id="l"
+              type="number"
+              min="0"
+              step="0.1"
+              inputmode="decimal"
+              value="4"
+          /></label>
+          <label
+            >Profundidade média (m)<input
+              id="p"
+              type="number"
+              min="0"
+              step="0.1"
+              inputmode="decimal"
+              value="1.4"
+          /></label>
+        </div>
+        <div class="out" id="out" aria-live="polite"></div>
+        <div class="row">
+          <a class="btn wa" id="calc-wa" href="#" target="_blank" rel="noopener"
+            >Enviar no WhatsApp</a
+          >
+          <button class="btn ghost" id="back">Voltar</button>
+        </div>
+      </div>
+    </dialog>
+
+    <svg width="0" height="0" style="position: absolute" aria-hidden="true">
+      <symbol id="wa" viewBox="0 0 24 24">
+        <path
+          d="M12.04 2a9.9 9.9 0 0 0-8.5 14.9L2 22l5.25-1.38A9.94 9.94 0 1 0 12.04 2Zm0 18.1a8.2 8.2 0 0 1-4.18-1.14l-.3-.18-3.1.82.83-3.02-.2-.31a8.2 8.2 0 1 1 6.95 3.83Zm4.5-6.14c-.25-.12-1.46-.72-1.69-.8-.23-.09-.39-.13-.56.12-.16.25-.64.8-.78.97-.14.16-.29.18-.54.06a6.7 6.7 0 0 1-3.3-2.88c-.25-.43.25-.4.71-1.32.08-.16.04-.3-.02-.42-.06-.12-.56-1.35-.76-1.85-.2-.48-.4-.42-.56-.42h-.47a.9.9 0 0 0-.65.3c-.22.25-.85.83-.85 2.03s.87 2.35 1 2.52c.12.16 1.7 2.6 4.12 3.64 1.53.66 2.13.72 2.9.6.46-.07 1.46-.6 1.66-1.17.2-.58.2-1.07.14-1.17-.06-.1-.22-.16-.47-.28Z"
+        />
+      </symbol>
+    </svg>
+  </body>
+</html>
